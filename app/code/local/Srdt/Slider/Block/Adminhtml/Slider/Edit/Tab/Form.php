@@ -121,7 +121,7 @@ class Srdt_Slider_Block_Adminhtml_Slider_Edit_Tab_Form extends Mage_Adminhtml_Bl
 }
 
 echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>';
-echo '<script type="text/javascript" src="http://192.200.12.89/projects/magento/js/jquery/jquery.noconflict.js"></script>';
+echo '<script type="text/javascript" src="'. Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN).'frontend/base/default/js/srdt/jquery.noconflict.js"></script>';
 echo "<script type=\"text/javascript\">
 
 		function checkBannerType(id)

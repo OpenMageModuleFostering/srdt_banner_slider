@@ -63,7 +63,7 @@ class Srdt_Slider_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Ac
             Mage::register('banner_data', $model);
 
             $this->loadLayout();
-           $this->_setActiveMenu('srdt');
+            $this->_setActiveMenu('srdt');
 
             $this->_addBreadcrumb(Mage::helper('adminhtml')->__('Enquiry Manager'), Mage::helper('adminhtml')->__('Banner Manager'));
             $this->_addBreadcrumb(Mage::helper('adminhtml')->__('Item News'), Mage::helper('adminhtml')->__('Item News'));
