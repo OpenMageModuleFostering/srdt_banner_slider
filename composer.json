@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Srdt_Banner_Slider",
+    "name": "OpenMageModuleFostering\/Srdt_Banner_Slider",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This Extension Let you add Banner slider on any page(Video or Image);",
     "authors": [
-    {
-        "name": "Abhishek Dixit",
-        "email": "er.abhishek_integral@rediffmail.com"
-    }
-],
+        {
+            "name": "Abhishek Dixit",
+            "email": "er.abhishek_integral@rediffmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
